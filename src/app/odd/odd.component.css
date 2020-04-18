@@ -1,0 +1,9 @@
+h3{
+    background: rgba(255, 255, 255, 0.719);
+    color: rgba(177, 32, 22, 0.884);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0;
+    width: 15rem;
+    text-align: center;
+}

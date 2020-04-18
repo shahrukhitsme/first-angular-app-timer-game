@@ -1,0 +1,14 @@
+<div class="bg-image"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-game-control (timerEvent)="createNumberComponent($event)"></app-game-control>
+      <div id="odd-even-components">
+        <div class="odd-even-component" *ngFor="let component of odd_even_components">
+          <app-even *ngIf="component === 'even'"></app-even>
+          <app-odd *ngIf="component === 'odd'"></app-odd>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
